@@ -1,4 +1,4 @@
-import { AuthStoreModule } from "./Store/";
+import { AuthStoreModule } from "./Store";
 
 export function registerAuthModule(app, store, router) {
   store.registerModule("auth", AuthStoreModule);

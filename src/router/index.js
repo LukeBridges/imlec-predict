@@ -7,12 +7,6 @@ const routes = [
     name: "Home",
     component: Home,
   },
-  {
-    path: "/locomotives",
-    name: "Locomotives",
-    component: () =>
-      import(/* webpackChunkName: "locomotives" */ "../pages/Locomotives.vue"),
-  },
 ];
 
 const router = createRouter({

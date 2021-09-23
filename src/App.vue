@@ -2,7 +2,7 @@
   <div id="nav">
     <div class="nav-options">
       <router-link to="/">Home</router-link> |
-      <router-link to="/locomotives">Analyze</router-link>
+      <router-link to="/analyze">Analyze</router-link>
     </div>
     <div class="nav-actions">
       <router-link
@@ -46,5 +46,9 @@ body,
 
 .nav-options a.router-link-exact-active {
   @apply text-purple-600;
+}
+
+.page {
+  @apply bg-gray-700;
 }
 </style>
